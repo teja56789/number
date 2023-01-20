@@ -14,3 +14,11 @@ list.insert(0,last)
 list.append(first)
 
 print('swapping:',list)
+
+
+start,*middle,end=list
+list=[end,*middle,start]
+
+print('swapping:',list)
+
+
